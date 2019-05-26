@@ -1,0 +1,81 @@
+
+
+  *{margin: 0; padding: 0;}
+
+    html, body{height: 100%;}
+    body {margin: 0; font-family: Arial, Helvetica, sans-serif;}
+
+    #main-container {min-height: 100%;}
+    #main-body {overflow-x: hidden; padding-bottom: 130px; height: auto;}
+    #name-text-top-menu{margin-left: 90px; font-family: "Mistral", Times, serif; font-size: 35px;text-shadow: 2px 2px 4px #000000;}
+    #column-margin-left{margin-left: 10px;}
+
+    .centered-title p {text-align: center;}
+
+      .topnav a
+        {float: left;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        margin-top: 5px;
+        text-decoration: none;
+        font-weight: 600;}
+
+      .topnav a:hover {color: white; text-decoration: none;}
+      .topnav-right a:hover {color: #959593; text-decoration: none;}
+
+      .topnav-right
+        {float: right;
+        margin-right: 150px;
+        font-size: 17px;
+        margin-top: 5px;
+        text-shadow: 2px 2px 4px #000000;}
+
+        .menu-media li{display:inline; padding: 1px; margin-left: 15px; }
+        .menu-media a{color: #42403E; font-weight: 700; text-decoration: none;}
+        .menu-media a:hover {color: #959593; text-decoration: none;}
+
+        @media (min-width: 770px)
+          {
+            ul { display: none; }
+          }
+
+        @media (max-width: 499px)
+          {
+          .topnav-right a {display: none;}
+          }
+
+
+      div.polaroid-table-resume
+        {border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px 8px #888888;}
+
+      div.polaroid-contact-form
+          {border: 1px solid;
+          box-shadow: 5px 5px 5px #888888;}
+
+
+      .col-md-4, .col-md-2, .col-md-3, .col-md-6, .col-md-5, .col-md-1{color: black; padding-top: 5px;}
+      .col-md-4 a{color: black; font-weight: bold;}
+      .col-md-4 a:hover{color: #959593; font-weight: bold; text-decoration: none;}
+
+
+      table {font-family: arial, sans-serif; border-collapse: collapse; width: 100%;}
+      td, th {border: 1px solid #dddddd; text-align: left; padding: 8px;}
+      tr:nth-child(even) {background-color: #dddddd;}
+
+
+      input[type=submit]
+        {background-color: #42403E;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+       cursor: pointer;}
+
+      input[type=submit]:hover {background-color: #959593;}
+
+
+    .footer a {color: white; font-size: 17px; font-weight: 600; text-shadow: 2px 2px 4px #000000;}
+    .footer a:hover {color: #959593; text-decoration: none;}

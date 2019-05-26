@@ -1,0 +1,41 @@
+
+
+        $menu-color: #42403E;
+
+        div {color: black;
+                h3 {text-shadow: 1px 1px 2px #000000;}
+                h4 {text-shadow: 1px 1px 2px #000000;}
+            }
+
+
+        %message {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              text-align: center;}
+
+
+        div.polaroid
+          {width: 265px;
+          @extend %message;}
+
+        div.polaroid-interests
+          {width: 400px;
+          @extend %message;}
+
+        div.polaroid-sites-resume
+            {width: 350px;
+            @extend %message;}
+
+        .topnav {overflow: hidden; background-image: linear-gradient($menu-color, white); height: 110px;}
+
+            .footer
+              {position: relative;
+              left: 0;
+              bottom: 0;
+              clear: both;
+              width: 100%;
+              height: 100px;
+              padding: 15px;
+              padding-right: 30px;
+              padding-top: 50px;
+              margin-top: -55px;
+              background-image: linear-gradient(white, $menu-color);
+              text-align: right;}
