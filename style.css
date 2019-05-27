@@ -7,7 +7,7 @@
 
     #main-container {min-height: 100%;}
     #main-body {overflow-x: hidden; padding-bottom: 130px; height: auto;}
-    #name-text-top-menu{margin-left: 90px; font-family: "Mistral", Times, serif; font-size: 35px;text-shadow: 2px 2px 4px #000000;}
+    #name-text-top-menu{margin-left: 70px; font-family: "Mistral", Times, serif; font-size: 35px;text-shadow: 2px 2px 4px #000000;}
     #column-margin-left{margin-left: 10px;}
 
     .centered-title p {text-align: center;}
