@@ -7,7 +7,7 @@ Jean Sebastien Cormier
 jeansebcormier@hotmail.com
 
 
-Index.html
+-Index.html-
 The first page index.html is where I started.
 The basic structure of the whole site was created here and then copied as a starting template for all of the other pages.
 
@@ -28,35 +28,35 @@ I have also added the md option on each column throughout the site to rearrange 
 All of the text links of the website have hover response except for the text on the left of the top menu.
 
 
-Interest
+-Interest-
 This page is to show a few of my interests.
 The body of this page includes 4 rows with 4 colomns each using the Bootstrap grid.
 Each second column has a picture and the third columns have some descriptive text.
 Some of the descriptive texts also include a link to some of my websites.
 
 
-Resume
+-Resume-
 The top portion of this page has 3 rows with 3 colomns each using Bootstrap.
 The first two rows have content in the middle with two exterior rows that are there for layout purposes.
 The first row has some text and the second row has a table showing my training.
 The last row has 3 pictures that are also links to some websites that I have created.
 
 
-Contact
+-Contact-
 The body of this page has 3 rows and the content is in the center row.
 The content is a Bootstrap component card that includes a botton which I've linked to a mailto and a page redirection action. 
 When someone presses on the botton it opens their default mail application and puts my email address in the To section. 
 The second action opens the thanks.html web page.
 
 
-Thanks
+-Thanks-
 This is a hidden page that only opens when the email button from the contact
 page is activated but it has all of the menu links to all of the other pages.
 It has 4 bootstrap columns like the home page with two used for layout purposes. 
 There is a picture of me in the second column and some text in the third column thanking the visitors for their visit.
 
 
-style.css
+-style.css-
 There is a lot of styling in this css file but some of the most note worthy ones are:
 - The @media that takes care of displaying the menu differently when on smaller screens. It hides the big screen menu and shows the smaller screen menu.
 - All of the styling for the top menu, footer, columns, Resumé table.
@@ -66,7 +66,7 @@ There is a lot of styling in this css file but some of the most note worthy ones
 - The text link hover actions have been specified in this file.
 
 
-sassystyle.scss / sassystyle.css
+-sassystyle.scss / sassystyle.css-
 Here I have a variable called $menu-color that specifies the color of the top menu and footer.
 A nested Div that provides text color for the text in the Divs of the whole site as well as specifications for the H3 and H4 text shadow in all of the Divs.
 The %message inheritance code takes care of some redundant code that is used in three of the .polaroid shadow classes. 
