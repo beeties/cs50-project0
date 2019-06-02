@@ -62,7 +62,7 @@ There is a lot of styling in this css file but some of the most note worthy ones
 - All of the styling for the top menu, footer, columns, Resumé table.
 - The table and contact card shadows have been defined here.
 - The Bootstrap component card Input actions for the contact page.
-- There are many classes and a few identifiers (main-container, main-body, name-text-top-menu and column-margin-left).
+- There are many classes and a few #id selectors(main-container, main-body, name-text-top-menu and column-margin-left).
 - The text link hover actions have been specified in this file.
 
 
